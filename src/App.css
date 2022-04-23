@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.this-color{
+  background-color: #61dafb50;
+  border-radius: 10px;
+  transition: all .8s ease-in-out;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +32,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.title{
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 4px rgba(0,0,0,1);
 }
 
 @keyframes App-logo-spin {
